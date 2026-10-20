@@ -6,12 +6,11 @@ A sleek, interactive, and dark-themed **To-Do List application** built using **R
 
 ## 📸 Preview & Interface
 
-| Active State Overview | Completed Tasks Breakdown |
+| Empty State Overview | Active & Completed Tasks |
 | :---: | :---: |
-| ![<img width="615" height="484" alt="Screenshot-1" src="https://github.com/user-attachments/assets/d62b94aa-6756-458c-b0d5-f47f58505c9e" />](
-) | !<img width="649" height="594" alt="Screenshot-2" src="https://github.com/user-attachments/assets/f5aeac3b-9091-48c1-96a4-d35f7b318a3a" />](
-) |
+| <img width="450" alt="Screenshot-1" src="https://github.com/user-attachments/assets/d62b94aa-6756-458c-b0d5-f47f58505c9e" /> | <img width="450" alt="Screenshot-2" src="https://github.com/user-attachments/assets/f5aeac3b-9091-48c1-96a4-d35f7b318a3a" /> |
 | *Task entry state with dynamic greeting.* | *Completed tasks tracking view.* |
+
 
 ---
 
