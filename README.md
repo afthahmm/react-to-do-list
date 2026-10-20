@@ -1,62 +1,75 @@
-# React To-Do List
+# 📋 React To-Do List Application
 
-This project is a simple **React-based To-Do List application** bootstrapped using [Create React App](https://github.com). It allows users to manage daily tasks efficiently through an interactive user interface.
+A sleek, interactive, and dark-themed **To-Do List application** built using **React** and bootstrapped via [Create React App](https://github.com). This project enables users to seamlessly organize their daily workflows, track active tasks, and archive completed items.
 
 ---
 
-## 🚀 How to Run the Project
+## 📸 Preview & Interface
 
-Follow these steps to set up and run the project locally on your machine:
+| Active State Overview | Completed Tasks Breakdown |
+| :---: | :---: |
+| ![Adding a Task](https://githubusercontent.com) | ![Marking Tasks as Complete](https://githubusercontent.com) |
+| *Task entry state with dynamic greeting.* | *Completed tasks tracking view.* |
 
-### 1. Prerequisites
-Ensure you have **Node.js** (version 14.0.0 or later) and **npm** installed on your computer. You can check your version by running:
+---
+
+## ✨ Features
+
+* **Dynamic Greetings:** Automatically detects and displays the current day of the week (e.g., *"Whoop, it's Wednesday ☺️ ☕"*).
+* **Interactive Task Management:** Real-time state handling to instantly append new line-items to your queue.
+* **Status Toggling:** Interactive check-boxes to visibly mark tasks as complete with strike-through typography effects.
+* **Dedicated History Summary:** Explicit dynamic text render area beneath the list highlighting your completed achievements.
+* **Destructive Actions:** Inline delete triggers (`✕`) to drop mistakenly added items immediately from memory.
+* **Modern Aesthetic:** Styled with a premium minimal dark-mode layout optimized for continuous daily productivity.
+
+---
+
+## 🚀 How to Run the Project Locally
+
+Follow these quick setup steps to clone and spin up the code on your personal workstation:
+
+### 1. Verify System Prerequisites
+Ensure you have **Node.js** (v14.0.0 or later) and **npm** pre-installed. Run these verification flags in your shell terminal:
 ```bash
 node -v
 npm -v
 ```
 
-### 2. Installation
-Open your terminal, navigate to the root directory of this project, and install the required dependencies:
+### 2. Clone the Remote Repository
+Execute the git utility chain to download the project directory tree locally:
+```bash
+git clone https://github.com
+```
+
+### 3. Initialize Package Dependencies
+Change working focus into the root directory path and trigger npm package installation scripts:
 ```bash
 cd react-to-do-list
 npm install
 ```
 
-### 3. Start the Development Server
-Once the installation is complete, run the following command to start the application:
+### 4. Fire Up the Server Engine
+Launch the isolated Node process engine bundle using the start automation directive:
 ```bash
 npm start
 ```
-This will automatically open the app in your default browser at [http://localhost:3000](http://localhost:3000). The page will automatically reload whenever you make edits to the code.
+This compilation handler automatically updates code states and maps the running interface straight to your primary browser tab view at: **[http://localhost:3000](http://localhost:3000)**.
 
 ---
 
-## 🛠️ Available Scripts
+## 🛠️ Automated Script Hooks
 
-In the project directory, you can run the following built-in commands:
+The pre-configured runtime wrapper definitions inside `package.json` support the following entry points:
 
-### `npm start`
-Runs the app in **development mode**.
-* Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-* Any lint errors or warnings will be visible directly in the console.
-
-### `npm test`
-Launches the **interactive test runner** in watch mode.
-* See the official section about [running tests](https://github.io) for advanced testing configurations.
-
-### `npm run build`
-Builds and optimizes the application for **production**.
-* Bundles React in production mode and minifies the files for optimal performance.
-* The ready-to-deploy assets will be generated inside a newly created `build/` folder.
-
-### `npm run eject`
-**Warning: This is a one-way operation. Once you eject, you cannot go back!**
-* If you are unsatisfied with the default build tool configurations, this removes the single build dependency and copies all configuration files (Webpack, Babel, ESLint, etc.) directly into your project. 
+* **`npm start`** — Fires up the hot-reloading development workspace pipeline. Monitors changes and surfaces compile-time lint logs directly in terminal frames.
+* **`npm test`** — Fires up Jest continuous validation test runners inside interactive assertion shells.
+* **`npm run build`** — Compiles, aggregates, minimizes, and fingerprints structural code branches straight into optimal production-ready assets located within a custom `/build` distribution path.
+* **`npm run eject`** — *Warning: Strict One-Way Terminal Operation!* Safely uncurates structural tooling wraps to fully expose under-the-hood configuration parameters (Webpack configs, Babel configurations, underlying setup files) for precise, manually managed overhauls.
 
 ---
 
-## 📚 Learn More
-
-To expand your knowledge on the tools used in this setup:
-* **React Documentation:** Review the official [React Docs](https://reactjs.org) to learn about components and state management.
-* **Create React App Documentation:** Read the [Getting Started Guide](https://github.io).
+## 💡 Tech Stack & Paradigms Utilized
+* **Core Framework Engine:** [React.js Component Architecture](https://reactjs.org)
+* **State Operations Matrix:** React Hooks architecture (`useState` handlers)
+* **Design Presentation Layer:** Standard CSS3 Layering with custom root semantic variables
+* **Bundler Architecture:** Webpack and Babel automation dependencies managed via `react-scripts`
