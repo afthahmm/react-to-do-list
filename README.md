@@ -8,7 +8,9 @@ A sleek, interactive, and dark-themed **To-Do List application** built using **R
 
 | Active State Overview | Completed Tasks Breakdown |
 | :---: | :---: |
-| ![Adding a Task](https://githubusercontent.com) | ![Marking Tasks as Complete](https://githubusercontent.com) |
+| ![Adding a Task](<img width="615" height="484" alt="Screenshot-1" src="https://github.com/user-attachments/assets/d62b94aa-6756-458c-b0d5-f47f58505c9e" />
+) | ![Marking Tasks as Complete](<img width="649" height="594" alt="Screenshot-2" src="https://github.com/user-attachments/assets/f5aeac3b-9091-48c1-96a4-d35f7b318a3a" />
+) |
 | *Task entry state with dynamic greeting.* | *Completed tasks tracking view.* |
 
 ---
